@@ -93,7 +93,7 @@ img
 
 section
 {
-    padding: 6rem 0;
+    padding: 2rem 0;
     margin: 5rem 0;
 }
 
@@ -398,3 +398,90 @@ border-radius: 2rem;
 }
 
 /* ===================SERVICES END================== */
+
+/* ===================PORTFOLIO================== */
+#portfolio
+{
+    background: var(--color-light);
+}
+
+.portfolio-head
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.portfolio-head h3
+{
+    width: 30%;
+}
+
+.portfolio-head-right
+{
+    width: 50%;
+}
+
+.portfolio-head-right a
+{
+    color: var(--color-primary);
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.portfolio-head-right a:hover
+{
+    margin-left: 1rem;
+    transition: all 500ms ease-in-out;
+}
+
+.portfolio-projects
+{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.portfolio-project
+{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 1rem;
+}
+
+.portfolio-project-image
+{
+    height: 20rem;
+    display: block;
+    border: 1rem solid var(--color-white);
+    overflow: hidden;
+    box-shadow: 0 0 1.6rem var(--color-primary-variant);
+    transition: all 500ms ease;
+}
+
+.portfolio-project-image:hover
+{
+    box-shadow: none;
+}
+
+.portfolio-project-image img
+{
+    transform: 0;
+    transition: all 3s ease;
+}
+
+/*18rem because project image height is 20rem and the border(top+bottom) is 1rem so we will be adding the actual height of image project*/
+
+.portfolio-project-image:hover img
+{
+    transform: translateY(calc(-100% + 18rem));
+}
+
+.portfolio-button
+{
+    display: flex;
+    gap: 1.5rem;
+}
+/* ===================PORTFOLIO END================== */

@@ -32,7 +32,7 @@ html
 
 body
 {
-    display: flex;
+    /* display: flex; */
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     font-weight: 300;
@@ -146,8 +146,8 @@ nav
     place-items: center;
     position: fixed;
     z-index: 2;
-    border-bottom-right-radius: 20%;
-    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
 }
 
 nav a
@@ -172,7 +172,7 @@ nav a:hover
 .logo
 {
     border-radius: 15%;
-    width: 8.5rem;
+    width: 7rem;
     margin-top: 0.5rem;
     margin-right: 1rem;
 }
@@ -188,7 +188,7 @@ nav a:hover
 
 .nav-menu li a
 {
-    font-size: 1.0005rem;
+    font-size: 1rem;
 }
 
 .nav-container button
@@ -248,11 +248,11 @@ header
 
 .header-image
 {
-    width: 80%;
+    width: 75%;
     /* height: 85%; */
     position: absolute;
     left: 2rem;
-    /* bottom: 0.2rem; */
+    bottom: 2.5rem;
     z-index: 1;
 }
 
@@ -286,8 +286,8 @@ header
 
 .header-right-bg
 {
-    width: 60rem;
-    height: 70rem;
+    width: 70rem;
+    height: 60rem;
     border-radius: 50%;
     background: var(--color-primary);
     position: absolute;
@@ -296,3 +296,33 @@ header
 }
 
 /* ======================HEADER ENDED================= */
+
+/* ===============COMPANIES================= */
+
+#companies
+{
+    position: relative;
+    top: 5rem;
+    padding: 0;
+    background: var(--color-light);
+    margin: 0;
+}
+
+.companies-container
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.companies-container span
+{
+    padding: 2.4rem;
+}
+
+.companies-container span img
+{
+  
+}
+

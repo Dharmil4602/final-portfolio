@@ -295,8 +295,8 @@
         position: relative;
         top: 0.5rem;
         left: 9rem;
-        height: 40%;
-        width: 40%;
+        height: 50%;
+        width: 50%;
     }
 
     .header-right-bg
@@ -389,6 +389,7 @@
     {
         position: relative;
         left: 6rem;
+        height: 100%;
         /* top: -2rem; */
         /* margin: 5rem 0; */
     }
@@ -398,4 +399,5 @@
         right: 0rem;
         bottom: 5rem;
     }
+
 }

@@ -147,8 +147,8 @@ nav
     place-items: center;
     position: fixed;
     z-index: 2;
-    border-bottom-right-radius: 40%;
-    border-bottom-left-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
+    /* border-bottom-left-radius: 40%; */
 }
 
 nav a
@@ -202,7 +202,8 @@ nav a:hover
 /*=================HEADER======================*/
 header
 {
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 7rem);
+    /* height: 100vh; */
     position: relative;
     /* position: absolute; */
     top: 8rem;
@@ -249,7 +250,7 @@ header
 
 .header-image
 {
-    width: 75%;
+    width: 70%;
     /* height: 85%; */
     position: absolute;
     left: 2rem;
@@ -259,6 +260,7 @@ header
 
 .header-image img
 {
+    /* position: absolute; */
     height: 100%;
     width: 100%;
 }

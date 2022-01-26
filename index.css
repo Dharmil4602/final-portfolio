@@ -141,14 +141,25 @@ section
 nav
 {
     width: 100vw;
-    background: #ecdbec;
-    height: 7rem;
+    /* background: #9e9a9ea2; */
+    height: 6rem;
     display: grid;
     place-items: center;
     position: fixed;
     z-index: 2;
     /* border-bottom-right-radius: 40%; */
     /* border-bottom-left-radius: 40%; */
+}
+
+.window-scroll
+{
+    background: var(--color-black);
+    box-shadow: 0 1.5rem 1.5rem rgba(36, 0, 64, .2);
+}
+
+.window-scroll a
+{
+    color: var(--color-white);
 }
 
 nav a
@@ -176,6 +187,7 @@ nav a:hover
     width: 7rem;
     margin-top: 0.5rem;
     margin-right: 1rem;
+    border: 5px solid black;
 }
 
 .nav-menu

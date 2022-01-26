@@ -218,3 +218,184 @@
         font-size: 1.5rem;
     }
 }
+
+/* MOBILE CSS */
+
+@media screen and (max-width: 700px) {
+    .container
+    {
+        width: var(--container-width-sm);
+    }
+
+    section
+    {
+        padding: 4rem 0;
+        margin: 4rem 0;
+    }
+
+    h1
+    {
+        font-size: 2.8rem;
+    }
+
+    h2
+    {
+        font-size: 1.4rem;
+    }
+
+    h3
+    {
+        font-size: 1.2rem;
+    }
+
+    .lead
+    {
+        width: var(--container-width-sm);
+    }
+
+    /* ==================NAVBAR================= */
+
+    .nav-container button
+    {
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+    .logo
+    {
+        margin-left: 0rem;
+    }
+
+    /* ====================HEADER================== */
+
+    header
+    {
+        height: 100vh;
+        padding: 0;
+    }
+
+    .header-container
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .header-left
+    {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .header-left p
+    {
+        margin-bottom: 0.5rem 0 1.2rem;
+    }
+
+    .header-image img
+    {
+        position: relative;
+        top: 0.5rem;
+        left: 9rem;
+        height: 40%;
+        width: 40%;
+    }
+
+    .header-right-bg
+    {
+        bottom: 20%;
+    }
+
+    .header-socials
+    {
+        right: 1rem;
+    }
+
+    .companies-container
+    {
+        grid-template-columns: repeat (3, 1fr);
+    }
+
+    .companies-container span
+    {
+        height: 5rem;
+        display: grid;
+        place-items: center;
+    }
+
+    .services-left
+    {
+        display: none;
+    }
+
+    .services-cards
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .services-card
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0rem;
+    }
+    /* ====================PORTFOLIO=============== */
+    .portfolio-head
+    {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .portfolio-head h3, .portfolio-head-right
+    {
+        width: var(--container-width-sm);
+    }
+
+    .portfolio-projects
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-left
+    {
+        position: relative;
+        top: 2rem;
+        /* margin-bottom: 22rem; */
+    }
+
+    .header-left h1
+    {
+        font-size: 2rem;
+    }
+
+    .header-left p
+    {
+        margin: 2px;
+    }
+
+    .header-right-bg
+    {
+        height: 10rem;
+    }
+    
+    .header-image img
+    {
+        position: relative;
+        left: 6rem;
+        /* top: -2rem; */
+        /* margin: 5rem 0; */
+    }
+
+    .header-socials
+    {
+        right: 0rem;
+        bottom: 5rem;
+    }
+}

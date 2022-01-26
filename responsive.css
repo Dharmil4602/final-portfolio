@@ -99,4 +99,122 @@
     {
         display: none;
     }
+
+    /* =================HEADER===================== */
+
+    header
+    {
+        height: 100%;
+        padding: 3rem 0 0;
+    }
+
+    .header-container
+    {
+        /* grid-template-columns: 30% 70%; */
+        align-items: flex-end;
+        height: 100%;
+    }
+
+    .header-left
+    {
+        margin-bottom: 5rem;
+    }
+
+    .header-right
+    {
+        align-self: flex-end;
+        height: 100%;
+        /* margin-bottom: 2rem; */
+    }
+
+    .header-right-bg
+    {
+        width: 20rem;
+        height: 20rem;
+        right: 50%;
+        bottom: 50%;
+        transform: translate(50%, 50%);
+        /* display: none; */
+    }
+
+    .header-image
+    {
+        width: 100%;
+        /* height: 100%; */
+        left: -1rem;
+        bottom: 3rem;
+    }
+
+    .header-socials
+    {
+        right: -1rem;
+    }
+
+    .header-socials a{
+        color: var(--color-black);
+    }
+
+    /* ==============COMPANIES================ */
+
+    .companies-container
+    {
+        gap: 0;
+    }
+
+    .companies-container span
+    {
+        padding: 1.5rem;
+    }
+
+    /* ==============SERVICES=============== */
+
+    .services-container
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .services-left
+    {
+        padding: 1rem;
+    }
+
+    .services-left h1
+    {
+        font-size: 5rem;
+    }
+
+    .services-cards
+    {
+        gap: 1rem;
+        /* flex-wrap: wrap; */
+    }
+
+    .services-card
+    {
+        padding: 2rem 2rem;
+    }
+
+    /* ===================PORTFOLIO================= */
+
+    .portfolio-head h3
+    {
+        width: 40%;
+    }
+
+    .portfolio-head-right
+    {
+        width: auto;
+    }
+
+    /* ======================CONTACT=========== */
+
+    .contact-container
+    {
+        gap: 2rem;
+    }
+
+    .contact-socials a
+    {
+        font-size: 1.5rem;
+    }
 }

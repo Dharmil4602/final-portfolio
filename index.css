@@ -266,7 +266,7 @@ header
     /* height: 85%; */
     position: absolute;
     left: 2rem;
-    bottom: 2.5rem;
+    bottom: -1rem;
     z-index: 1;
 }
 
@@ -340,7 +340,7 @@ header
 
 #services
 {
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
 .services-container
 {
